@@ -20,11 +20,24 @@ SeekMeJs is a Javascript library for dealing with mini DOM manipulation issues i
 ## Usage
 
 ```html
-<fieldset>
-    <legend>Password</legend>
-    <input type="password" value="" name="" class="input_login password_input" placeholder=""/>
-    <span class="input_icon"><input type="checkbox" name="seekPwd" id="seekPwd" class="toggle_pwd"/> <label for="seekPwd">Toggle</label></span>
-</fieldset>
+ <form action="">
+        <fieldset>
+            <legend>Username</legend>
+            <input type="text" name="" id="" placeholder="username">
+        </fieldset>
+        <!-- password section -->
+        <fieldset>
+            <legend>Password</legend>
+            <input class="password_input" type="password" name="" id="" placeholder="password">
+            <!-- Span for the toggle switch -->
+            <span class="">
+                <!-- hidden checkbox -->
+                <input hidden type="checkbox" class="pwd_seek" name="" id="eye">
+                <label for="eye">seek</label>
+            </span>
+        </fieldset>
+        <button>Login</button>
+    </form>
 ```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
