@@ -12,7 +12,7 @@ SeekMeJs is a Javascript library for dealing with mini DOM manipulation issues i
 
 #### Steps: 
    - Create an input field having class "password_input", this is just for the javascript code to detect the tag.
-   - Create an Element it could be a span or a button, provided it has the class of "pwd_seek".
+   - Create an input Element of type checkbox and make it hidden it could be in a span or a button, provided it has the class of "pwd_seek".
 
     
 
