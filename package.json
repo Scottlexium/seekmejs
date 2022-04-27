@@ -1,6 +1,6 @@
 {
   "name": "seekmejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a simple javascript module to help in implementing the password seek function in html and css",
   "main": "seek.js",
   "scripts": {
@@ -10,8 +10,5 @@
     "LexiumSeek"
   ],
   "author": "Scottlexium",
-  "license": "ISC",
-  "dependencies": {
-    "seekmejs": "^1.0.0"
-  }
+  "license": "ISC"
 }
