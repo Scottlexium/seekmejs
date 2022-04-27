@@ -1,5 +1,4 @@
-exports.seekJs = function() {
-    const pwdType = document.querySelector('.toggle_pwd');
+    const pwdType = document.querySelector('.pwd_seek');
         const pwdInput = document.querySelector('.password_input')
         const loadValidate = pwdType.checked;
         window.addEventListener('load', (e)=>{
@@ -21,4 +20,5 @@ exports.seekJs = function() {
                     break;
             }
         }
-  }
+
+    
